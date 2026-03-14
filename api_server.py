@@ -1,8 +1,21 @@
 import json
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Lottery Scraper API", version="2.0.0")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://lovable.dev",
+        "https://www.lovable.dev",
+        "*"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 BASE_DIR = Path(__file__).resolve().parent
 
