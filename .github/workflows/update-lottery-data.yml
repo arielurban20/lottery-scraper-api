@@ -1,0 +1,96 @@
+name: Auto Update Lottery Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build catalog
+        run: |
+          python build_catalog_from_sitemap_v2.py
+
+      - name: Crawl yearly data
+        run: |
+          python -m scrapy crawl year_from_catalog
+
+      - name: Normalize historical draws
+        run: |
+          python normalize_historical_draws.py
+
+      - name: Build latest results from historical
+        run: |
+          python build_latest_from_historical.py
+
+      - name: Build number stats
+        run: |
+          python build_number_stats.py
+
+      - name: Validate generated files
+        run: |
+          python - <<'PY'
+          import json, sys
+
+          def load_json(path):
+              with open(path, "r", encoding="utf-8") as f:
+                  return json.load(f)
+
+          catalog = load_json("catalog.json")
+          latest = load_json("latest_results.json")
+          historical = load_json("historical_draws_clean.json")
+          stats = load_json("number_stats.json")
+
+          if not catalog.get("games"):
+              print("catalog.json has no games")
+              sys.exit(1)
+
+          if not latest or len(latest) < 50:
+              print("latest_results.json looks too small")
+              sys.exit(1)
+
+          if not historical or len(historical) < 500:
+              print("historical_draws_clean.json looks too small")
+              sys.exit(1)
+
+          if not stats or len(stats) < 50:
+              print("number_stats.json looks too small")
+              sys.exit(1)
+
+          game_slugs = {g.get("game_slug") for g in catalog.get("games", [])}
+          required = {"powerball", "mega-millions", "cash4life", "lotto-america"}
+
+          missing = required - game_slugs
+          if missing:
+              print("Missing important games in catalog:", missing)
+              sys.exit(1)
+
+          print("Validation passed")
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Auto update lottery data"
+          git push
