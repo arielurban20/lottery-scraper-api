@@ -1815,7 +1815,7 @@
     "state_name": "Florida",
     "game_slug": "cash-pop-evening",
     "game_name": "Cash Pop Evening",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
       "10"
     ],
@@ -2266,11 +2266,11 @@
     "state_name": "Georgia",
     "game_slug": "cash-3-evening",
     "game_name": "Cash 3 Evening",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "4",
-      "8",
-      "7"
+      "0",
+      "7",
+      "5"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -6751,11 +6751,11 @@
     "state_name": "New Hampshire",
     "game_slug": "pick-3",
     "game_name": "Pick 3",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "7",
-      "2",
-      "2"
+      "5",
+      "1",
+      "3"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -6772,12 +6772,12 @@
     "state_name": "New Hampshire",
     "game_slug": "pick-4",
     "game_name": "Pick 4",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
       "7",
       "8",
-      "8",
-      "2"
+      "3",
+      "1"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -8506,12 +8506,12 @@
     "state_name": "Oregon",
     "game_slug": "pick-4-4pm",
     "game_name": "Pick 4 4Pm",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "6",
-      "2",
-      "2",
-      "7"
+      "7",
+      "8",
+      "5",
+      "1"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -8680,9 +8680,9 @@
     "state_name": "Pennsylvania",
     "game_slug": "cash-pop-prime-time",
     "game_name": "Cash Pop Prime Time",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9"
+      "5"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -9375,9 +9375,9 @@
     "state_name": "South Carolina",
     "game_slug": "cash-pop-evening",
     "game_name": "Cash Pop Evening",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9"
+      "3"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -9481,18 +9481,18 @@
     "state_name": "South Carolina",
     "game_slug": "palmetto-cash-5",
     "game_name": "Palmetto Cash 5",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "7",
-      "17",
-      "21",
-      "30",
-      "31"
+      "2",
+      "5",
+      "11",
+      "15",
+      "23"
     ],
     "bonus_label": null,
     "bonus_number": null,
     "multiplier": null,
-    "jackpot": "Est. jackpot $110,000"
+    "jackpot": "Est. jackpot $120,000"
   },
   {
     "source_url": "https://www.lotteryusa.com/south-carolina/pick-3/year",
@@ -9504,12 +9504,12 @@
     "state_name": "South Carolina",
     "game_slug": "pick-3",
     "game_name": "Pick 3",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9",
       "2",
+      "6",
       "8",
-      "9"
+      "6"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -9526,13 +9526,13 @@
     "state_name": "South Carolina",
     "game_slug": "pick-4",
     "game_name": "Pick 4",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "7",
-      "5",
       "8",
-      "3",
-      "9"
+      "5",
+      "2",
+      "9",
+      "6"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -10100,20 +10100,20 @@
     "state_name": "Texas",
     "game_slug": "evening-all-or-nothing",
     "game_name": "Evening All Or Nothing",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "2",
-      "7",
+      "1",
+      "4",
+      "5",
+      "6",
       "8",
-      "10",
-      "11",
+      "9",
       "12",
-      "13",
-      "15",
       "16",
       "18",
-      "20",
-      "24"
+      "19",
+      "21",
+      "22"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -10130,12 +10130,12 @@
     "state_name": "Texas",
     "game_slug": "evening-pick-3",
     "game_name": "Evening Pick 3",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "3",
-      "6",
-      "6",
-      "4"
+      "8",
+      "0",
+      "1",
+      "0"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -10152,13 +10152,13 @@
     "state_name": "Texas",
     "game_slug": "evening-pick-4",
     "game_name": "Evening Pick 4",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "6",
-      "9",
-      "0",
       "5",
-      "6"
+      "8",
+      "8",
+      "4",
+      "0"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -11096,11 +11096,11 @@
     "state_name": "West Virginia",
     "game_slug": "daily-3",
     "game_name": "Daily 3",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
+      "0",
       "4",
-      "5",
-      "5"
+      "1"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -11117,12 +11117,12 @@
     "state_name": "West Virginia",
     "game_slug": "daily-4",
     "game_name": "Daily 4",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "8",
+      "7",
       "1",
-      "6",
-      "0"
+      "1",
+      "9"
     ],
     "bonus_label": null,
     "bonus_number": null,
