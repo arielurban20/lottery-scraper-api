@@ -199,18 +199,18 @@
     "state_name": null,
     "game_slug": "tri-state-megabucks-plus",
     "game_name": "Tri State Megabucks Plus",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9",
-      "18",
-      "30",
-      "39",
-      "40"
+      "1",
+      "3",
+      "11",
+      "17",
+      "21"
     ],
     "bonus_label": "MB",
-    "bonus_number": "6",
+    "bonus_number": "5",
     "multiplier": null,
-    "jackpot": "Est. jackpot $2.85 Million"
+    "jackpot": "Est. jackpot $2.9 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/arizona/fantasy-5/year",
@@ -365,11 +365,11 @@
     "state_name": "Arkansas",
     "game_slug": "cash-3",
     "game_name": "Cash 3",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "4",
-      "4",
-      "1"
+      "8",
+      "1",
+      "2"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -386,12 +386,12 @@
     "state_name": "Arkansas",
     "game_slug": "cash-4",
     "game_name": "Cash 4",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "3",
-      "5",
-      "6",
-      "4"
+      "7",
+      "0",
+      "8",
+      "6"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -546,18 +546,18 @@
     "state_name": "Arkansas",
     "game_slug": "natural-state-jackpot",
     "game_name": "Natural State Jackpot",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
+      "7",
       "11",
-      "14",
-      "22",
-      "36",
-      "39"
+      "13",
+      "17",
+      "34"
     ],
     "bonus_label": null,
     "bonus_number": null,
     "multiplier": null,
-    "jackpot": "Est. jackpot $85,000"
+    "jackpot": "Est. jackpot $90,000"
   },
   {
     "source_url": "https://www.lotteryusa.com/arkansas/powerball/year",
@@ -1204,19 +1204,19 @@
     "state_name": "Delaware",
     "game_slug": "lotto",
     "game_name": "Lotto",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "2",
-      "9",
-      "15",
-      "18",
-      "22",
-      "35"
+      "14",
+      "21",
+      "23",
+      "25",
+      "27",
+      "32"
     ],
     "bonus_label": null,
     "bonus_number": null,
     "multiplier": null,
-    "jackpot": "Est. jackpot $73,500"
+    "jackpot": "Est. jackpot $74,000"
   },
   {
     "source_url": "https://www.lotteryusa.com/delaware/lotto-america/year",
@@ -1299,11 +1299,11 @@
     "state_name": "Delaware",
     "game_slug": "play-3",
     "game_name": "Play 3",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "8",
-      "7",
-      "3"
+      "5",
+      "4",
+      "5"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -1341,12 +1341,12 @@
     "state_name": "Delaware",
     "game_slug": "play-4",
     "game_name": "Play 4",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
+      "8",
       "0",
-      "7",
-      "3",
-      "0"
+      "9",
+      "8"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -1385,13 +1385,13 @@
     "state_name": "Delaware",
     "game_slug": "play-5",
     "game_name": "Play 5",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "4",
-      "5",
-      "6",
-      "5",
-      "9"
+      "2",
+      "3",
+      "8",
+      "7",
+      "3"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -1520,12 +1520,12 @@
     "state_name": "District Of Columbia",
     "game_slug": "dc-4",
     "game_name": "Dc 4",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "3",
       "9",
-      "4",
-      "9"
+      "7",
+      "8",
+      "4"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -1586,13 +1586,13 @@
     "state_name": "District Of Columbia",
     "game_slug": "dc-5",
     "game_name": "Dc 5",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "1",
       "8",
-      "4",
-      "2",
-      "0"
+      "8",
+      "5",
+      "9",
+      "5"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -1630,11 +1630,11 @@
     "state_name": "District Of Columbia",
     "game_slug": "dc-lucky-numbers",
     "game_name": "Dc Lucky Numbers",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9",
-      "3",
-      "6"
+      "0",
+      "6",
+      "8"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -2407,9 +2407,9 @@
     "state_name": "Georgia",
     "game_slug": "cash-pop-primetime",
     "game_name": "Cash Pop Primetime",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "10"
+      "9"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -4483,18 +4483,18 @@
     "state_name": "Maine",
     "game_slug": "megabucks",
     "game_name": "Megabucks",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9",
-      "18",
-      "30",
-      "39",
-      "40"
+      "1",
+      "3",
+      "11",
+      "17",
+      "21"
     ],
     "bonus_label": "MB",
-    "bonus_number": "6",
+    "bonus_number": "5",
     "multiplier": null,
-    "jackpot": "Est. jackpot $2.85 Million"
+    "jackpot": "Est. jackpot $2.9 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/maine/midday-3/year",
@@ -4855,19 +4855,19 @@
     "state_name": "Maryland",
     "game_slug": "multi-match",
     "game_name": "Multi Match",
-    "draw_date": "Thursday, Mar 12, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9",
-      "15",
-      "24",
-      "26",
-      "27",
-      "35"
+      "6",
+      "11",
+      "19",
+      "32",
+      "34",
+      "39"
     ],
     "bonus_label": null,
     "bonus_number": null,
     "multiplier": null,
-    "jackpot": "Est. jackpot $1.5 Million"
+    "jackpot": "Est. jackpot $1.6 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/maryland/pick-3/year",
@@ -4997,13 +4997,13 @@
     "state_name": "Massachusetts",
     "game_slug": "mass-cash",
     "game_name": "Mass Cash",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "12",
-      "19",
-      "20",
-      "24",
-      "34"
+      "9",
+      "16",
+      "27",
+      "28",
+      "32"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -5043,19 +5043,19 @@
     "state_name": "Massachusetts",
     "game_slug": "megabucks",
     "game_name": "Megabucks",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "17",
-      "20",
-      "21",
-      "25",
-      "26",
-      "36"
+      "4",
+      "11",
+      "30",
+      "31",
+      "40",
+      "44"
     ],
     "bonus_label": null,
     "bonus_number": null,
     "multiplier": null,
-    "jackpot": "Est. jackpot $13.55 Million"
+    "jackpot": "Est. jackpot $13.8 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/massachusetts/midday-mass-cash/year",
@@ -6663,18 +6663,18 @@
     "state_name": "New Hampshire",
     "game_slug": "megabucks",
     "game_name": "Megabucks",
-    "draw_date": "Saturday, Mar 14, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9",
-      "18",
-      "30",
-      "39",
-      "40"
+      "1",
+      "3",
+      "11",
+      "17",
+      "21"
     ],
     "bonus_label": "MB",
-    "bonus_number": "6",
+    "bonus_number": "5",
     "multiplier": null,
-    "jackpot": "Est. jackpot $2.85 Million"
+    "jackpot": "Est. jackpot $2.9 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/new-hampshire/midday-3/year",
@@ -7384,28 +7384,28 @@
     "state_name": "New York",
     "game_slug": "pick-10",
     "game_name": "Pick 10",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "1",
-      "4",
-      "5",
-      "7",
-      "17",
-      "19",
-      "30",
-      "41",
-      "43",
-      "45",
-      "46",
+      "3",
+      "8",
+      "14",
+      "20",
+      "27",
+      "28",
+      "32",
+      "33",
+      "34",
+      "42",
+      "44",
+      "53",
+      "57",
+      "58",
       "59",
-      "65",
-      "66",
-      "69",
-      "70",
-      "71",
+      "60",
+      "61",
       "73",
-      "75",
-      "78"
+      "74",
+      "76"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -10602,9 +10602,9 @@
     "state_name": "Virginia",
     "game_slug": "cash-pop-prime-time",
     "game_name": "Cash Pop Prime Time",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "3"
+      "13"
     ],
     "bonus_label": null,
     "bonus_number": null,
