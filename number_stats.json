@@ -13529,7 +13529,7 @@
       },
       {
         "number": "14",
-        "count": 6
+        "count": 5
       },
       {
         "number": "10",
@@ -13564,16 +13564,16 @@
         "count": 3
       },
       {
+        "number": "4",
+        "count": 2
+      },
+      {
         "number": "7",
         "count": 2
       },
       {
         "number": "9",
         "count": 2
-      },
-      {
-        "number": "4",
-        "count": 1
       },
       {
         "number": "15",
@@ -13586,16 +13586,16 @@
     ],
     "least_frequent_main": [
       {
-        "number": "4",
-        "count": 1
-      },
-      {
         "number": "8",
         "count": 1
       },
       {
         "number": "15",
         "count": 1
+      },
+      {
+        "number": "4",
+        "count": 2
       },
       {
         "number": "7",
@@ -13638,11 +13638,11 @@
         "count": 5
       },
       {
-        "number": "12",
-        "count": 6
+        "number": "14",
+        "count": 5
       },
       {
-        "number": "14",
+        "number": "12",
         "count": 6
       }
     ],
@@ -53697,23 +53697,23 @@
       },
       {
         "number": "2",
-        "count": 19
+        "count": 20
       },
       {
         "number": "8",
-        "count": 19
+        "count": 18
+      },
+      {
+        "number": "6",
+        "count": 16
       },
       {
         "number": "4",
         "count": 15
       },
       {
-        "number": "6",
-        "count": 15
-      },
-      {
         "number": "3",
-        "count": 14
+        "count": 13
       },
       {
         "number": "9",
@@ -53746,12 +53746,12 @@
         "count": 12
       },
       {
-        "number": "9",
+        "number": "3",
         "count": 13
       },
       {
-        "number": "3",
-        "count": 14
+        "number": "9",
+        "count": 13
       },
       {
         "number": "4",
@@ -53759,15 +53759,15 @@
       },
       {
         "number": "6",
-        "count": 15
-      },
-      {
-        "number": "2",
-        "count": 19
+        "count": 16
       },
       {
         "number": "8",
-        "count": 19
+        "count": 18
+      },
+      {
+        "number": "2",
+        "count": 20
       },
       {
         "number": "7",
@@ -53786,11 +53786,11 @@
     "most_frequent_main": [
       {
         "number": "0",
-        "count": 27
+        "count": 26
       },
       {
         "number": "2",
-        "count": 24
+        "count": 23
       },
       {
         "number": "6",
@@ -53801,19 +53801,19 @@
         "count": 21
       },
       {
-        "number": "8",
-        "count": 21
-      },
-      {
         "number": "5",
-        "count": 19
+        "count": 20
       },
       {
-        "number": "4",
-        "count": 17
+        "number": "8",
+        "count": 20
       },
       {
         "number": "3",
+        "count": 18
+      },
+      {
+        "number": "4",
         "count": 17
       },
       {
@@ -53822,20 +53822,16 @@
       },
       {
         "number": "9",
-        "count": 15
+        "count": 16
       }
     ],
     "least_frequent_main": [
       {
         "number": "9",
-        "count": 15
+        "count": 16
       },
       {
         "number": "1",
-        "count": 17
-      },
-      {
-        "number": "3",
         "count": 17
       },
       {
@@ -53843,15 +53839,19 @@
         "count": 17
       },
       {
-        "number": "5",
-        "count": 19
+        "number": "3",
+        "count": 18
       },
       {
-        "number": "7",
-        "count": 21
+        "number": "5",
+        "count": 20
       },
       {
         "number": "8",
+        "count": 20
+      },
+      {
+        "number": "7",
         "count": 21
       },
       {
@@ -53860,11 +53860,11 @@
       },
       {
         "number": "2",
-        "count": 24
+        "count": 23
       },
       {
         "number": "0",
-        "count": 27
+        "count": 26
       }
     ],
     "most_frequent_bonus": [],
@@ -55279,70 +55279,70 @@
         "count": 16
       },
       {
-        "number": "0",
-        "count": 16
-      },
-      {
         "number": "4",
         "count": 15
+      },
+      {
+        "number": "0",
+        "count": 15
+      },
+      {
+        "number": "2",
+        "count": 14
+      },
+      {
+        "number": "9",
+        "count": 14
       },
       {
         "number": "3",
         "count": 14
       },
       {
-        "number": "6",
-        "count": 14
-      },
-      {
-        "number": "9",
+        "number": "8",
         "count": 13
       },
       {
-        "number": "2",
+        "number": "6",
         "count": 13
       },
       {
         "number": "7",
-        "count": 13
-      },
-      {
-        "number": "8",
         "count": 12
       }
     ],
     "least_frequent_main": [
       {
-        "number": "8",
+        "number": "7",
         "count": 12
       },
       {
+        "number": "6",
+        "count": 13
+      },
+      {
+        "number": "8",
+        "count": 13
+      },
+      {
         "number": "2",
-        "count": 13
-      },
-      {
-        "number": "7",
-        "count": 13
-      },
-      {
-        "number": "9",
-        "count": 13
+        "count": 14
       },
       {
         "number": "3",
         "count": 14
       },
       {
-        "number": "6",
+        "number": "9",
         "count": 14
+      },
+      {
+        "number": "0",
+        "count": 15
       },
       {
         "number": "4",
         "count": 15
-      },
-      {
-        "number": "0",
-        "count": 16
       },
       {
         "number": "5",
@@ -55365,18 +55365,18 @@
     "most_frequent_main": [
       {
         "number": "5",
-        "count": 33
+        "count": 31
       },
       {
         "number": "3",
         "count": 27
       },
       {
-        "number": "8",
-        "count": 24
+        "number": "1",
+        "count": 25
       },
       {
-        "number": "1",
+        "number": "8",
         "count": 24
       },
       {
@@ -55384,19 +55384,19 @@
         "count": 21
       },
       {
-        "number": "2",
-        "count": 15
-      },
-      {
-        "number": "7",
-        "count": 15
+        "number": "4",
+        "count": 16
       },
       {
         "number": "9",
         "count": 15
       },
       {
-        "number": "4",
+        "number": "2",
+        "count": 15
+      },
+      {
+        "number": "7",
         "count": 15
       },
       {
@@ -55414,10 +55414,6 @@
         "count": 15
       },
       {
-        "number": "4",
-        "count": 15
-      },
-      {
         "number": "7",
         "count": 15
       },
@@ -55426,16 +55422,20 @@
         "count": 15
       },
       {
+        "number": "4",
+        "count": 16
+      },
+      {
         "number": "6",
         "count": 21
       },
       {
-        "number": "1",
+        "number": "8",
         "count": 24
       },
       {
-        "number": "8",
-        "count": 24
+        "number": "1",
+        "count": 25
       },
       {
         "number": "3",
@@ -55443,7 +55443,7 @@
       },
       {
         "number": "5",
-        "count": 33
+        "count": 31
       }
     ],
     "most_frequent_bonus": [],
@@ -56365,32 +56365,32 @@
         "count": 11
       },
       {
-        "number": "8",
+        "number": "36",
         "count": 10
       },
       {
-        "number": "36",
+        "number": "33",
         "count": 9
       },
       {
-        "number": "7",
+        "number": "8",
         "count": 9
+      },
+      {
+        "number": "23",
+        "count": 8
       },
       {
         "number": "24",
         "count": 8
       },
       {
-        "number": "38",
+        "number": "7",
         "count": 8
       },
       {
-        "number": "26",
-        "count": 8
-      },
-      {
-        "number": "33",
-        "count": 8
+        "number": "15",
+        "count": 7
       },
       {
         "number": "5",
@@ -56405,7 +56405,7 @@
         "count": 7
       },
       {
-        "number": "23",
+        "number": "38",
         "count": 7
       },
       {
@@ -56421,15 +56421,15 @@
         "count": 7
       },
       {
-        "number": "27",
+        "number": "26",
+        "count": 7
+      },
+      {
+        "number": "9",
         "count": 6
       },
       {
         "number": "19",
-        "count": 6
-      },
-      {
-        "number": "1",
         "count": 6
       }
     ],
@@ -56463,15 +56463,15 @@
         "count": 4
       },
       {
-        "number": "9",
-        "count": 5
-      },
-      {
         "number": "10",
         "count": 5
       },
       {
         "number": "21",
+        "count": 5
+      },
+      {
+        "number": "27",
         "count": 5
       },
       {
@@ -56491,6 +56491,10 @@
         "count": 6
       },
       {
+        "number": "9",
+        "count": 6
+      },
+      {
         "number": "13",
         "count": 6
       },
@@ -56499,19 +56503,15 @@
         "count": 6
       },
       {
-        "number": "15",
-        "count": 6
-      },
-      {
         "number": "19",
         "count": 6
       },
       {
-        "number": "27",
+        "number": "28",
         "count": 6
       },
       {
-        "number": "28",
+        "number": "30",
         "count": 6
       }
     ],
@@ -84365,31 +84365,23 @@
     "draw_count": 50,
     "most_frequent_main": [
       {
+        "number": "9",
+        "count": 30
+      },
+      {
         "number": "2",
         "count": 30
       },
       {
-        "number": "3",
-        "count": 30
-      },
-      {
-        "number": "9",
+        "number": "18",
         "count": 29
       },
       {
-        "number": "5",
-        "count": 28
+        "number": "3",
+        "count": 29
       },
       {
         "number": "8",
-        "count": 28
-      },
-      {
-        "number": "18",
-        "count": 28
-      },
-      {
-        "number": "21",
         "count": 28
       },
       {
@@ -84397,19 +84389,27 @@
         "count": 28
       },
       {
-        "number": "22",
-        "count": 26
-      },
-      {
         "number": "10",
-        "count": 26
+        "count": 27
       },
       {
-        "number": "6",
+        "number": "22",
+        "count": 27
+      },
+      {
+        "number": "5",
+        "count": 27
+      },
+      {
+        "number": "21",
+        "count": 27
+      },
+      {
+        "number": "19",
         "count": 25
       },
       {
-        "number": "14",
+        "number": "6",
         "count": 25
       },
       {
@@ -84417,11 +84417,11 @@
         "count": 24
       },
       {
-        "number": "19",
+        "number": "14",
         "count": 24
       },
       {
-        "number": "4",
+        "number": "11",
         "count": 23
       },
       {
@@ -84429,20 +84429,20 @@
         "count": 23
       },
       {
-        "number": "11",
+        "number": "4",
         "count": 23
-      },
-      {
-        "number": "15",
-        "count": 23
-      },
-      {
-        "number": "13",
-        "count": 21
       },
       {
         "number": "17",
-        "count": 21
+        "count": 22
+      },
+      {
+        "number": "15",
+        "count": 22
+      },
+      {
+        "number": "13",
+        "count": 20
       }
     ],
     "least_frequent_main": [
@@ -84456,11 +84456,15 @@
       },
       {
         "number": "13",
-        "count": 21
+        "count": 20
+      },
+      {
+        "number": "15",
+        "count": 22
       },
       {
         "number": "17",
-        "count": 21
+        "count": 22
       },
       {
         "number": "4",
@@ -84475,15 +84479,11 @@
         "count": 23
       },
       {
-        "number": "15",
-        "count": 23
-      },
-      {
-        "number": "16",
+        "number": "14",
         "count": 24
       },
       {
-        "number": "19",
+        "number": "16",
         "count": 24
       },
       {
@@ -84491,27 +84491,27 @@
         "count": 25
       },
       {
-        "number": "14",
+        "number": "19",
         "count": 25
       },
       {
+        "number": "5",
+        "count": 27
+      },
+      {
         "number": "10",
-        "count": 26
+        "count": 27
+      },
+      {
+        "number": "21",
+        "count": 27
       },
       {
         "number": "22",
-        "count": 26
-      },
-      {
-        "number": "5",
-        "count": 28
+        "count": 27
       },
       {
         "number": "8",
-        "count": 28
-      },
-      {
-        "number": "18",
         "count": 28
       },
       {
@@ -84519,11 +84519,11 @@
         "count": 28
       },
       {
-        "number": "21",
-        "count": 28
+        "number": "3",
+        "count": 29
       },
       {
-        "number": "9",
+        "number": "18",
         "count": 29
       }
     ],
@@ -84884,24 +84884,28 @@
     "draw_count": 50,
     "most_frequent_main": [
       {
+        "number": "7",
+        "count": 21
+      },
+      {
         "number": "9",
         "count": 21
       },
       {
-        "number": "7",
-        "count": 20
+        "number": "3",
+        "count": 17
       },
       {
-        "number": "3",
-        "count": 18
+        "number": "4",
+        "count": 15
       },
       {
         "number": "5",
         "count": 15
       },
       {
-        "number": "4",
-        "count": 14
+        "number": "1",
+        "count": 13
       },
       {
         "number": "0",
@@ -84912,29 +84916,29 @@
         "count": 13
       },
       {
-        "number": "6",
-        "count": 13
-      },
-      {
-        "number": "1",
-        "count": 12
-      },
-      {
         "number": "8",
+        "count": 11
+      },
+      {
+        "number": "6",
         "count": 11
       }
     ],
     "least_frequent_main": [
       {
+        "number": "6",
+        "count": 11
+      },
+      {
         "number": "8",
         "count": 11
       },
       {
-        "number": "1",
-        "count": 12
+        "number": "0",
+        "count": 13
       },
       {
-        "number": "0",
+        "number": "1",
         "count": 13
       },
       {
@@ -84942,12 +84946,8 @@
         "count": 13
       },
       {
-        "number": "6",
-        "count": 13
-      },
-      {
         "number": "4",
-        "count": 14
+        "count": 15
       },
       {
         "number": "5",
@@ -84955,11 +84955,11 @@
       },
       {
         "number": "3",
-        "count": 18
+        "count": 17
       },
       {
         "number": "7",
-        "count": 20
+        "count": 21
       },
       {
         "number": "9",
@@ -85071,15 +85071,15 @@
     "most_frequent_main": [
       {
         "number": "5",
-        "count": 27
+        "count": 25
+      },
+      {
+        "number": "7",
+        "count": 24
       },
       {
         "number": "9",
         "count": 24
-      },
-      {
-        "number": "7",
-        "count": 23
       },
       {
         "number": "1",
@@ -85090,15 +85090,15 @@
         "count": 21
       },
       {
+        "number": "6",
+        "count": 20
+      },
+      {
         "number": "4",
         "count": 20
       },
       {
         "number": "0",
-        "count": 19
-      },
-      {
-        "number": "6",
         "count": 19
       },
       {
@@ -85124,11 +85124,11 @@
         "count": 19
       },
       {
-        "number": "6",
-        "count": 19
+        "number": "4",
+        "count": 20
       },
       {
-        "number": "4",
+        "number": "6",
         "count": 20
       },
       {
@@ -85141,7 +85141,7 @@
       },
       {
         "number": "7",
-        "count": 23
+        "count": 24
       },
       {
         "number": "9",
@@ -85149,7 +85149,7 @@
       },
       {
         "number": "5",
-        "count": 27
+        "count": 25
       }
     ],
     "most_frequent_bonus": [],

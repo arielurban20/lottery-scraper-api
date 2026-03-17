@@ -1881,9 +1881,9 @@
     "state_name": "Florida",
     "game_slug": "cash-pop-afternoon",
     "game_name": "Cash Pop Afternoon",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
-      "12"
+      "4"
     ],
     "bonus_number": null,
     "multiplier": null,
@@ -7425,11 +7425,11 @@
     "state_name": "New Mexico",
     "game_slug": "midday-pick-3-plus",
     "game_name": "Midday Pick 3 Plus",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
-      "5",
-      "2",
-      "7"
+      "6",
+      "3",
+      "2"
     ],
     "bonus_number": null,
     "multiplier": null,
@@ -7447,12 +7447,12 @@
     "state_name": "New Mexico",
     "game_slug": "midday-pick-4-plus",
     "game_name": "Midday Pick 4 Plus",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
-      "5",
-      "2",
+      "6",
       "9",
-      "2"
+      "3",
+      "5"
     ],
     "bonus_number": null,
     "multiplier": null,
@@ -7642,10 +7642,10 @@
     "state_name": "New York",
     "game_slug": "midday-numbers",
     "game_name": "Midday Numbers",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
-      "1",
-      "5",
+      "8",
+      "2",
       "9"
     ],
     "bonus_number": null,
@@ -7664,12 +7664,12 @@
     "state_name": "New York",
     "game_slug": "midday-win-4",
     "game_name": "Midday Win 4",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
-      "2",
+      "4",
       "3",
-      "6",
-      "0"
+      "9",
+      "1"
     ],
     "bonus_number": null,
     "multiplier": null,
@@ -7803,13 +7803,13 @@
     "state_name": "New York",
     "game_slug": "take-5-midday",
     "game_name": "Take 5 Midday",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
-      "5",
-      "6",
-      "24",
-      "27",
-      "32"
+      "9",
+      "15",
+      "23",
+      "33",
+      "36"
     ],
     "bonus_number": null,
     "multiplier": null,
@@ -11730,19 +11730,19 @@
     "state_name": "Wisconsin",
     "game_slug": "all-or-nothing",
     "game_name": "All Or Nothing",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
       "8",
       "9",
+      "10",
+      "11",
       "12",
       "16",
+      "17",
       "18",
-      "21"
+      "19",
+      "20",
+      "22"
     ],
     "bonus_number": null,
     "multiplier": null,
@@ -11814,11 +11814,11 @@
     "state_name": "Wisconsin",
     "game_slug": "daily-pick-3",
     "game_name": "Daily Pick 3",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
+      "1",
       "7",
-      "3",
-      "7"
+      "4"
     ],
     "bonus_number": null,
     "multiplier": null,
@@ -11858,12 +11858,12 @@
     "state_name": "Wisconsin",
     "game_slug": "daily-pick-4",
     "game_name": "Daily Pick 4",
-    "draw_date": "Monday, Mar 16, 2026",
+    "draw_date": "Tuesday, Mar 17, 2026",
     "main_numbers": [
+      "6",
       "3",
-      "4",
-      "9",
-      "1"
+      "7",
+      "7"
     ],
     "bonus_number": null,
     "multiplier": null,
