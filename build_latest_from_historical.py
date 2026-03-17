@@ -4,12 +4,14 @@ from collections import defaultdict
 INPUT_FILE = "historical_draws_clean.json"
 OUTPUT_FILE = "latest_results.json"
 
+
 def group_key(item):
     return (
         item.get("state_slug"),
         item.get("game_slug"),
-        item.get("source_url") or item.get("base_url")
+        item.get("source_url") or item.get("base_url"),
     )
+
 
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
@@ -41,6 +43,7 @@ for key, rows in grouped.items():
         "bonus_label": first.get("bonus_label"),
         "bonus_number": first.get("bonus_number"),
         "multiplier": first.get("multiplier"),
+        "secondary_draws": first.get("secondary_draws", []),
         "jackpot": first.get("prize_text") or first.get("jackpot"),
     })
 
