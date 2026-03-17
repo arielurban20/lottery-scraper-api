@@ -5320,6 +5320,7 @@
   "game_name": "Cash Pop Morning",
   "draw_date": "",
   "main_numbers": [
+    "12",
     "13",
     "14",
     "13",
@@ -5328,8 +5329,7 @@
     "7",
     "4",
     "14",
-    "14",
-    "1"
+    "14"
   ],
   "bonus_number": null,
   "multiplier": null,
@@ -8902,6 +8902,7 @@
   "game_name": "Cash Pop Morning",
   "draw_date": "",
   "main_numbers": [
+    "6",
     "12",
     "5",
     "13",
@@ -8910,8 +8911,7 @@
     "9",
     "3",
     "2",
-    "14",
-    "4"
+    "14"
   ],
   "bonus_number": null,
   "multiplier": null,
@@ -12415,6 +12415,7 @@
   "game_name": "Cash Pop Early Bird",
   "draw_date": "",
   "main_numbers": [
+    "5",
     "6",
     "10",
     "7",
@@ -12423,8 +12424,7 @@
     "8",
     "7",
     "13",
-    "2",
-    "1"
+    "2"
   ],
   "bonus_number": null,
   "multiplier": null,
@@ -13436,6 +13436,7 @@
   "game_name": "Cash Pop 9Am",
   "draw_date": "",
   "main_numbers": [
+    "3",
     "13",
     "2",
     "7",
@@ -13444,8 +13445,7 @@
     "6",
     "9",
     "15",
-    "8",
-    "1"
+    "8"
   ],
   "bonus_number": null,
   "multiplier": null,
@@ -16827,6 +16827,7 @@
   "game_name": "Cash Pop Early Bird",
   "draw_date": "",
   "main_numbers": [
+    "12",
     "13",
     "6",
     "8",
@@ -16835,8 +16836,7 @@
     "9",
     "15",
     "2",
-    "7",
-    "3"
+    "7"
   ],
   "bonus_number": null,
   "multiplier": null,
@@ -21952,12 +21952,12 @@
   "game_name": "Cash Pop Morning Buzz",
   "draw_date": "",
   "main_numbers": [
+    "5",
     "8",
     "9",
     "11",
     "12",
     "7",
-    "10",
     "10",
     "10",
     "10",
@@ -24897,6 +24897,7 @@
   "game_name": "Cash Pop Morning Buzz",
   "draw_date": "",
   "main_numbers": [
+    "7",
     "11",
     "15",
     "13",
@@ -24905,8 +24906,7 @@
     "10",
     "12",
     "9",
-    "11",
-    "2"
+    "11"
   ],
   "bonus_number": null,
   "multiplier": null,
@@ -30395,6 +30395,7 @@
   "game_name": "Cash Pop Coffee Break",
   "draw_date": "",
   "main_numbers": [
+    "15",
     "12",
     "14",
     "15",
@@ -30403,8 +30404,7 @@
     "3",
     "5",
     "11",
-    "4",
-    "1"
+    "4"
   ],
   "bonus_number": null,
   "multiplier": null,
