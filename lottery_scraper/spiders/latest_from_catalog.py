@@ -113,8 +113,12 @@ class LatestFromCatalogSpider(scrapy.Spider):
             catalog = json.load(f)
 
         for game in catalog.get("games", []):
-            if game.get("game_slug") in {"powerball", "mega-millions"}:
-                target_url = game.get("url") or game.get("numbers_url")
+            game_slug = game.get("game_slug")
+
+            if game_slug == "powerball":
+                target_url = "https://www.lotteryusa.com/powerball/"
+            elif game_slug == "mega-millions":
+                target_url = "https://www.lotteryusa.com/mega-millions/"
             else:
                 target_url = game.get("numbers_url") or game.get("url")
 
