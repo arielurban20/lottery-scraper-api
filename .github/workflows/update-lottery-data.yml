@@ -32,7 +32,7 @@ jobs:
 
       - name: Crawl latest results directly
         run: |
-          python -m scrapy crawl latest_from_catalog
+          python -m scrapy crawl latest_from_catalog -O latest_results_raw.json
 
       - name: Crawl yearly data
         run: |
@@ -41,6 +41,10 @@ jobs:
       - name: Normalize historical draws
         run: |
           python normalize_historical_draws.py
+
+      - name: Build latest results from historical
+        run: |
+          python build_latest_from_historical.py
 
       - name: Build number stats
         run: |
