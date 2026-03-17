@@ -28,7 +28,7 @@ jobs:
 
       - name: Crawl latest results only
         run: |
-          python -m scrapy crawl latest_from_catalog -O latest_results_raw.json
+          FAST_GAME_SLUGS="powerball,mega-millions,cash4life,millionaire-for-life,the-pick" python -m scrapy crawl latest_from_catalog -O latest_results_raw.json
 
       - name: Build latest results
         run: |
