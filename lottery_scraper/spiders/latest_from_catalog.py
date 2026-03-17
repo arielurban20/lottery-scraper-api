@@ -1,6 +1,92 @@
 import json
 import os
+import re
 import scrapy
+
+
+def clean_token(text):
+    return re.sub(r"\s+", " ", (text or "").strip())
+
+
+def clean_tokens(tokens):
+    return [clean_token(t) for t in tokens if clean_token(t)]
+
+
+def parse_draw_section(tokens):
+    nums = [t for t in tokens if t.isdigit()]
+    main_numbers = nums[:5]
+    bonus_number = nums[5] if len(nums) > 5 else None
+    multiplier = next((t for t in tokens if "power play" in t.lower()), None)
+    return {
+        "main_numbers": main_numbers,
+        "bonus_number": bonus_number,
+        "multiplier": multiplier,
+    }
+
+
+def split_powerball_latest_card(latest_card):
+    tokens = clean_tokens(latest_card.css("*::text").getall())
+    lower_tokens = [t.lower() for t in tokens]
+
+    def find_index(label):
+        for idx, value in enumerate(lower_tokens):
+            if value == label:
+                return idx
+        return -1
+
+    main_idx = find_index("main draw")
+    double_idx = find_index("double play")
+
+    main_section = []
+    double_section = []
+
+    if main_idx != -1:
+        end_main = double_idx if double_idx != -1 else len(tokens)
+        main_section = tokens[main_idx + 1:end_main]
+
+    if double_idx != -1:
+        end_double = len(tokens)
+        stop_labels = {
+            "prizes",
+            "did i win?",
+            "see more numbers",
+            "powerball tools",
+            "next powerball draw",
+            "next est. jackpot",
+            "add to favorites",
+        }
+        for i in range(double_idx + 1, len(tokens)):
+            if lower_tokens[i] in stop_labels:
+                end_double = i
+                break
+        double_section = tokens[double_idx + 1:end_double]
+
+    main_parsed = parse_draw_section(main_section) if main_section else {
+        "main_numbers": [],
+        "bonus_number": None,
+        "multiplier": None,
+    }
+
+    double_parsed = parse_draw_section(double_section) if double_section else {
+        "main_numbers": [],
+        "bonus_number": None,
+        "multiplier": None,
+    }
+
+    secondary_draws = []
+    if double_parsed["main_numbers"]:
+        secondary_draws.append({
+            "draw_type": "double-play",
+            "main_numbers": double_parsed["main_numbers"],
+            "bonus_number": double_parsed["bonus_number"],
+        })
+
+    return {
+        "main_numbers": main_parsed["main_numbers"],
+        "bonus_number": main_parsed["bonus_number"],
+        "multiplier": main_parsed["multiplier"],
+        "secondary_draws": secondary_draws,
+    }
 
 
 class LatestFromCatalogSpider(scrapy.Spider):
@@ -27,11 +113,10 @@ class LatestFromCatalogSpider(scrapy.Spider):
             catalog = json.load(f)
 
         for game in catalog.get("games", []):
-            # Elegir la mejor URL disponible
-            target_url = (
-                game.get("numbers_url")
-                or game.get("url")
-            )
+            if game.get("game_slug") in {"powerball", "mega-millions"}:
+                target_url = game.get("url") or game.get("numbers_url")
+            else:
+                target_url = game.get("numbers_url") or game.get("url")
 
             if not target_url:
                 continue
@@ -54,20 +139,27 @@ class LatestFromCatalogSpider(scrapy.Spider):
     def parse(self, response):
         page_title = response.css("title::text").get(default="").strip()
 
-        # Intento 1: primer bloque tipo c-draw-card
         latest_card = response.xpath("(//div[contains(@class,'c-draw-card')])[1]")
 
         draw_date_parts = latest_card.css(".c-draw-card__date *::text").getall()
         draw_date = " ".join(x.strip() for x in draw_date_parts if x.strip())
 
-        main_numbers = latest_card.css("li.c-ball::text").getall()
-        bonus_number = latest_card.css("li.c-result__bonus::text").get()
-        multiplier = latest_card.css("li.c-result__multiplier::text").get()
+        secondary_draws = []
+
+        if response.meta.get("game_slug") == "powerball":
+            parsed_powerball = split_powerball_latest_card(latest_card)
+            main_numbers = parsed_powerball["main_numbers"]
+            bonus_number = parsed_powerball["bonus_number"]
+            multiplier = parsed_powerball["multiplier"]
+            secondary_draws = parsed_powerball["secondary_draws"]
+        else:
+            main_numbers = latest_card.css("li.c-ball::text").getall()
+            bonus_number = latest_card.css("li.c-result__bonus::text").get()
+            multiplier = latest_card.css("li.c-result__multiplier::text").get()
 
         jackpot_parts = latest_card.css(".c-draw-card__prize *::text").getall()
         jackpot = " ".join(x.strip() for x in jackpot_parts if x.strip())
 
-        # Intento 2: buscar en cualquier bloque c-result si el primero salió vacío
         if not main_numbers:
             main_numbers = response.css("ul.c-result li.c-ball::text").getall()
 
@@ -77,14 +169,16 @@ class LatestFromCatalogSpider(scrapy.Spider):
         if not multiplier:
             multiplier = response.css("ul.c-result li.c-result__multiplier::text").get()
 
-        # Intento 3: fallback para fecha
         if not draw_date:
-            possible_date_parts = response.css(".c-draw-card__date::text, .c-draw-card__date *::text").getall()
+            possible_date_parts = response.css(
+                ".c-draw-card_date::text, .c-draw-card_date *::text"
+            ).getall()
             draw_date = " ".join(x.strip() for x in possible_date_parts if x.strip())
 
-        # Intento 4: fallback para jackpot
         if not jackpot:
-            possible_jackpot_parts = response.css(".c-draw-card__prize::text, .c-draw-card__prize *::text").getall()
+            possible_jackpot_parts = response.css(
+                ".c-draw-card_prize::text, .c-draw-card_prize *::text"
+            ).getall()
             jackpot = " ".join(x.strip() for x in possible_jackpot_parts if x.strip())
 
         yield {
@@ -102,5 +196,6 @@ class LatestFromCatalogSpider(scrapy.Spider):
             "main_numbers": main_numbers,
             "bonus_number": bonus_number,
             "multiplier": multiplier,
+            "secondary_draws": secondary_draws,
             "jackpot": jackpot,
         }
