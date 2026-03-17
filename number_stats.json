@@ -64155,7 +64155,7 @@
     "most_frequent_main": [
       {
         "number": "0",
-        "count": 27
+        "count": 29
       },
       {
         "number": "6",
@@ -64178,38 +64178,38 @@
         "count": 19
       },
       {
+        "number": "2",
+        "count": 18
+      },
+      {
         "number": "9",
         "count": 17
       },
       {
-        "number": "2",
-        "count": 17
-      },
-      {
         "number": "5",
-        "count": 16
+        "count": 15
       },
       {
         "number": "3",
-        "count": 14
+        "count": 12
       }
     ],
     "least_frequent_main": [
       {
         "number": "3",
-        "count": 14
+        "count": 12
       },
       {
         "number": "5",
-        "count": 16
-      },
-      {
-        "number": "2",
-        "count": 17
+        "count": 15
       },
       {
         "number": "9",
         "count": 17
+      },
+      {
+        "number": "2",
+        "count": 18
       },
       {
         "number": "1",
@@ -64233,7 +64233,7 @@
       },
       {
         "number": "0",
-        "count": 27
+        "count": 29
       }
     ],
     "most_frequent_bonus": [],
