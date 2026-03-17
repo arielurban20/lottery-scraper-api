@@ -16971,10 +16971,6 @@
         "count": 6
       },
       {
-        "number": "5",
-        "count": 5
-      },
-      {
         "number": "3",
         "count": 5
       },
@@ -16987,12 +16983,20 @@
         "count": 4
       },
       {
+        "number": "5",
+        "count": 4
+      },
+      {
         "number": "1",
         "count": 4
       },
       {
         "number": "7",
         "count": 4
+      },
+      {
+        "number": "6",
+        "count": 3
       },
       {
         "number": "14",
@@ -17008,10 +17012,6 @@
       },
       {
         "number": "4",
-        "count": 2
-      },
-      {
-        "number": "6",
         "count": 2
       },
       {
@@ -17037,16 +17037,16 @@
         "count": 2
       },
       {
-        "number": "6",
-        "count": 2
-      },
-      {
         "number": "8",
         "count": 2
       },
       {
         "number": "13",
         "count": 2
+      },
+      {
+        "number": "6",
+        "count": 3
       },
       {
         "number": "10",
@@ -17065,6 +17065,10 @@
         "count": 4
       },
       {
+        "number": "5",
+        "count": 4
+      },
+      {
         "number": "7",
         "count": 4
       },
@@ -17078,10 +17082,6 @@
       },
       {
         "number": "3",
-        "count": 5
-      },
-      {
-        "number": "5",
         "count": 5
       },
       {
