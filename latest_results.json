@@ -187,7 +187,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/tri-state-megabucks-plus/year",
@@ -305,7 +305,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/arizona/the-pick/year",
@@ -585,7 +585,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/california/daily-3/year",
@@ -740,7 +740,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/california/super-lotto-plus/year",
@@ -957,7 +957,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/connecticut/cash-5/year",
@@ -1192,7 +1192,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/delaware/lotto/year",
@@ -1447,7 +1447,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/district-of-columbia/dc-2/year",
@@ -1499,11 +1499,11 @@
     "state_name": "District Of Columbia",
     "game_slug": "dc-3-night",
     "game_name": "Dc 3 Night",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "9",
-      "4",
-      "6"
+      "2",
+      "3",
+      "7"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -1564,12 +1564,12 @@
     "state_name": "District Of Columbia",
     "game_slug": "dc-4-night",
     "game_name": "Dc 4 Night",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "0",
-      "5",
       "7",
-      "7"
+      "3",
+      "7",
+      "8"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -1784,7 +1784,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/florida/cash-pop-afternoon/year",
@@ -1834,9 +1834,9 @@
     "state_name": "Florida",
     "game_slug": "cash-pop-late-night",
     "game_name": "Cash Pop Late Night",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "7"
+      "10"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -1914,13 +1914,13 @@
     "state_name": "Florida",
     "game_slug": "fantasy-5",
     "game_name": "Fantasy 5",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "2",
-      "3",
-      "6",
-      "20",
-      "22"
+      "9",
+      "10",
+      "14",
+      "27",
+      "34"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -2233,7 +2233,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/georgia/cash-3/year",
@@ -2245,11 +2245,11 @@
     "state_name": "Georgia",
     "game_slug": "cash-3",
     "game_name": "Cash 3",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "0",
-      "5",
-      "4"
+      "8",
+      "8",
+      "9"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -2287,12 +2287,12 @@
     "state_name": "Georgia",
     "game_slug": "cash-4",
     "game_name": "Cash 4",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "8",
-      "8",
-      "9",
-      "0"
+      "6",
+      "3",
+      "0",
+      "6"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -2388,9 +2388,9 @@
     "state_name": "Georgia",
     "game_slug": "cash-pop-night-owl",
     "game_name": "Cash Pop Night Owl",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "4"
+      "1"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -2449,18 +2449,18 @@
     "state_name": "Georgia",
     "game_slug": "fantasy-5",
     "game_name": "Fantasy 5",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "3",
+      "2",
+      "8",
       "17",
-      "26",
-      "31",
-      "33"
+      "28",
+      "30"
     ],
     "bonus_label": null,
     "bonus_number": null,
     "multiplier": null,
-    "jackpot": "Est. jackpot $150,000"
+    "jackpot": "Est. jackpot $183,000"
   },
   {
     "source_url": "https://www.lotteryusa.com/georgia/georgia-five/year",
@@ -2623,7 +2623,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/idaho/idaho-cash/year",
@@ -2858,7 +2858,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/illinois/daily-3/year",
@@ -3082,7 +3082,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/indiana/cash-5/year",
@@ -3456,7 +3456,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/indiana/quick-draw/year",
@@ -3703,7 +3703,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/kansas/2by2/year",
@@ -3889,7 +3889,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/kansas/super-kansas-cash/year",
@@ -4118,7 +4118,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/louisiana/easy-5/year",
@@ -4200,11 +4200,11 @@
     "state_name": "Louisiana",
     "game_slug": "pick-3",
     "game_name": "Pick 3",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "1",
-      "4",
-      "0"
+      "5",
+      "7",
+      "6"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -4221,12 +4221,12 @@
     "state_name": "Louisiana",
     "game_slug": "pick-4",
     "game_name": "Pick 4",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "3",
       "8",
-      "3",
-      "6"
+      "9",
+      "1",
+      "7"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -4243,13 +4243,13 @@
     "state_name": "Louisiana",
     "game_slug": "pick-5",
     "game_name": "Pick 5",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "0",
+      "6",
       "4",
-      "8",
-      "5",
-      "0"
+      "1",
+      "3",
+      "2"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -4282,7 +4282,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/maine/cash-pop-brunch/year",
@@ -4631,7 +4631,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/maryland/bonus-match-5/year",
@@ -4961,7 +4961,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/massachusetts/lucky-4-life/year",
@@ -5151,7 +5151,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/michigan/classic-lotto-47/year",
@@ -5455,7 +5455,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/minnesota/gopher-5/year",
@@ -5597,7 +5597,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/mississippi/cash-3/year",
@@ -5846,7 +5846,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/missouri/cash-pop-early-bird/year",
@@ -5915,9 +5915,9 @@
     "state_name": "Missouri",
     "game_slug": "cash-pop-night-owl",
     "game_name": "Cash Pop Night Owl",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "8"
+      "4"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -6159,7 +6159,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/missouri/show-me-cash/year",
@@ -6350,7 +6350,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/nebraska/2by2/year",
@@ -6581,7 +6581,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/new-hampshire/gimme-5/year",
@@ -6811,7 +6811,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/new-jersey/cash-5/year",
@@ -7051,7 +7051,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/new-mexico/lotto-america/year",
@@ -7212,7 +7212,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/new-mexico/road-runner-cash/year",
@@ -7438,7 +7438,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/new-york/take-5/year",
@@ -7584,9 +7584,9 @@
     "state_name": "North Carolina",
     "game_slug": "cash-pop-midnight-money",
     "game_name": "Cash Pop Midnight Money",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "7"
+      "4"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -7756,12 +7756,12 @@
     "state_name": "North Carolina",
     "game_slug": "pick-3",
     "game_name": "Pick 3",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "4",
       "0",
-      "4",
-      "9"
+      "0",
+      "5",
+      "0"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -7817,7 +7817,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/north-dakota/2by2/year",
@@ -7961,7 +7961,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/ohio/classic-lotto/year",
@@ -8215,7 +8215,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/ohio/rolling-cash-5/year",
@@ -8404,7 +8404,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/oregon/mega-millions/year",
@@ -8567,7 +8567,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/oregon/win-for-life/year",
@@ -8989,7 +8989,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/pennsylvania/treasure-hunt/year",
@@ -9196,7 +9196,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/puerto-rico/revancha/year",
@@ -9340,7 +9340,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/rhode-island/wild-money/year",
@@ -9566,7 +9566,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/south-dakota/dakota-cash/year",
@@ -9711,7 +9711,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/tennessee/cash-3/year",
@@ -9990,7 +9990,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/tennessee/tennessee-cash/year",
@@ -10411,7 +10411,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/texas/texas-two-step/year",
@@ -10485,7 +10485,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/virginia/bank-a-million/year",
@@ -10545,7 +10545,7 @@
     "state_name": "Virginia",
     "game_slug": "cash-pop-after-hours",
     "game_name": "Cash Pop After Hours",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
       "5"
     ],
@@ -10863,7 +10863,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/washington/cash-pop/year",
@@ -10938,28 +10938,28 @@
     "state_name": "Washington",
     "game_slug": "keno",
     "game_name": "Keno",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "1",
-      "13",
-      "14",
-      "18",
-      "21",
+      "22",
+      "23",
+      "24",
+      "27",
       "29",
       "32",
-      "36",
-      "38",
-      "43",
-      "46",
+      "41",
       "47",
+      "53",
       "54",
-      "56",
-      "58",
-      "60",
+      "55",
+      "57",
+      "59",
+      "68",
+      "69",
       "70",
-      "71",
-      "74",
-      "78"
+      "72",
+      "78",
+      "79",
+      "80"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -11000,12 +11000,12 @@
     "state_name": "Washington",
     "game_slug": "match-4",
     "game_name": "Match 4",
-    "draw_date": "Sunday, Mar 15, 2026",
+    "draw_date": "Monday, Mar 16, 2026",
     "main_numbers": [
-      "1",
       "2",
-      "14",
-      "15"
+      "3",
+      "15",
+      "21"
     ],
     "bonus_label": null,
     "bonus_number": null,
@@ -11061,7 +11061,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/west-virginia/cash-25/year",
@@ -11226,7 +11226,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/wisconsin/all-or-nothing/year",
@@ -11444,7 +11444,7 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   },
   {
     "source_url": "https://www.lotteryusa.com/wisconsin/super-cash/year",
@@ -11635,6 +11635,6 @@
     "bonus_label": "PB",
     "bonus_number": "4",
     "multiplier": "Power Play: 2",
-    "jackpot": "Est. jackpot $88 Million"
+    "jackpot": "Est. jackpot $89 Million"
   }
 ]
