@@ -1,121 +1,118 @@
 import json
-from collections import defaultdict
+from pathlib import Path
 
-RAW_INPUT = "latest_results_raw.json"
-HIST_INPUT = "historical_draws_clean.json"
-OUTPUT_FILE = "latest_results.json"
+BASE_DIR = Path(__file__).resolve().parent
+HISTORICAL_PATH = BASE_DIR / "historical_draws_clean.json"
+RAW_LATEST_PATH = BASE_DIR / "latest_results_raw.json"
+OUTPUT_PATH = BASE_DIR / "latest_results.json"
 
-SPECIAL_RAW_GAMES = {"powerball", "mega-millions"}
+SPECIAL_RAW_KEYS = {
+    "powerball",
+    "mega-millions",
+    "cash4life",
+    "millionaire-for-life",
+    "lucky-for-life",
+    "cash-5:new-jersey",
+}
 
 
-def clean_num_list(values):
-    out = []
-    for v in values or []:
-        s = str(v).strip()
-        if s.isdigit():
-            out.append(s)
-    return out
+def load_json(path: Path, default):
+    if not path.exists():
+        return default
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def group_key(item):
-    return (
-        item.get("state_slug"),
-        item.get("game_slug"),
+def make_key(item):
+    game_slug = item.get("game_slug")
+    state_slug = item.get("state_slug")
+    if state_slug:
+        return f"{game_slug}:{state_slug}"
+    return game_slug
+
+
+def normalize_raw_item(item):
+    return {
+        "source_url": item.get("source_url"),
+        "base_url": item.get("base_url"),
+        "numbers_url": item.get("numbers_url"),
+        "year_url": item.get("year_url"),
+        "page_title": item.get("page_title"),
+        "game_type": item.get("game_type"),
+        "state_slug": item.get("state_slug"),
+        "state_name": item.get("state_name"),
+        "game_slug": item.get("game_slug"),
+        "game_name": item.get("game_name"),
+        "draw_date": item.get("draw_date"),
+        "main_numbers": item.get("main_numbers") or [],
+        "bonus_number": item.get("bonus_number"),
+        "multiplier": item.get("multiplier"),
+        "secondary_draws": item.get("secondary_draws") or [],
+        "jackpot": item.get("jackpot"),
+        "next_draw_date": item.get("next_draw_date"),
+        "next_draw_time": item.get("next_draw_time"),
+        "next_estimated_jackpot": item.get("next_estimated_jackpot"),
+    }
+
+
+def normalize_historical_item(item):
+    return {
+        "source_url": item.get("source_url"),
+        "base_url": item.get("base_url"),
+        "numbers_url": item.get("numbers_url"),
+        "year_url": item.get("year_url"),
+        "page_title": item.get("page_title"),
+        "game_type": item.get("game_type"),
+        "state_slug": item.get("state_slug"),
+        "state_name": item.get("state_name"),
+        "game_slug": item.get("game_slug"),
+        "game_name": item.get("game_name"),
+        "draw_date": item.get("draw_date"),
+        "main_numbers": item.get("main_numbers") or [],
+        "bonus_number": item.get("bonus_number"),
+        "multiplier": item.get("multiplier"),
+        "secondary_draws": item.get("secondary_draws") or [],
+        "jackpot": item.get("jackpot"),
+        "next_draw_date": item.get("next_draw_date"),
+        "next_draw_time": item.get("next_draw_time"),
+        "next_estimated_jackpot": item.get("next_estimated_jackpot"),
+    }
+
+
+def main():
+    historical = load_json(HISTORICAL_PATH, [])
+    raw_latest = load_json(RAW_LATEST_PATH, [])
+
+    latest_by_key = {}
+
+    for item in historical:
+        key = make_key(item)
+        if key not in latest_by_key:
+            latest_by_key[key] = normalize_historical_item(item)
+
+    for item in raw_latest:
+        key = make_key(item)
+        if key in SPECIAL_RAW_KEYS:
+            latest_by_key[key] = normalize_raw_item(item)
+        elif key not in latest_by_key:
+            latest_by_key[key] = normalize_raw_item(item)
+
+    latest_results = list(latest_by_key.values())
+
+    latest_results.sort(
+        key=lambda x: (
+            x.get("game_slug") or "",
+            x.get("state_slug") or "",
+            x.get("state_name") or "",
+        )
     )
 
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(latest_results, f, ensure_ascii=False, indent=2)
 
-def build_from_historical_row(row):
-    return {
-        "source_url": row.get("source_url"),
-        "base_url": row.get("source_url"),
-        "numbers_url": None,
-        "year_url": row.get("source_url"),
-        "page_title": row.get("game_name"),
-        "game_type": row.get("game_type"),
-        "state_slug": row.get("state_slug"),
-        "state_name": row.get("state_name"),
-        "game_slug": row.get("game_slug"),
-        "game_name": row.get("game_name"),
-        "draw_date": row.get("draw_date"),
-        "main_numbers": clean_num_list(row.get("main_numbers")),
-        "bonus_number": (
-            str(row.get("bonus_number")).strip()
-            if row.get("bonus_number") not in (None, "")
-            else None
-        ),
-        "multiplier": row.get("multiplier"),
-        "secondary_draws": [],
-        "jackpot": row.get("prize_text") or row.get("jackpot") or "",
-    }
+    print(f"Archivo creado: {OUTPUT_PATH.name}")
+    print(f"Juegos procesados: {len(latest_results)}")
 
 
-def build_from_raw_row(row):
-    return {
-        "source_url": row.get("source_url"),
-        "base_url": row.get("base_url"),
-        "numbers_url": row.get("numbers_url"),
-        "year_url": row.get("year_url"),
-        "page_title": row.get("page_title"),
-        "game_type": row.get("game_type"),
-        "state_slug": row.get("state_slug"),
-        "state_name": row.get("state_name"),
-        "game_slug": row.get("game_slug"),
-        "game_name": row.get("game_name"),
-        "draw_date": row.get("draw_date"),
-        "main_numbers": clean_num_list(row.get("main_numbers")),
-        "bonus_number": (
-            str(row.get("bonus_number")).strip()
-            if row.get("bonus_number") not in (None, "")
-            else None
-        ),
-        "multiplier": row.get("multiplier"),
-        "secondary_draws": row.get("secondary_draws") or [],
-        "jackpot": row.get("jackpot") or "",
-    }
-
-
-with open(HIST_INPUT, "r", encoding="utf-8") as f:
-    historical = json.load(f)
-
-grouped_hist = defaultdict(list)
-for row in historical:
-    if row.get("game_slug"):
-        grouped_hist[group_key(row)].append(row)
-
-latest_results = []
-
-# Base principal: todos los juegos salen de históricos limpios
-for key, rows in grouped_hist.items():
-    rows_sorted = sorted(rows, key=lambda x: x.get("row_index", 999999))
-    first = rows_sorted[0]
-    latest_results.append(build_from_historical_row(first))
-
-# Overlay: juegos especiales salen del latest raw scrapeado
-try:
-    with open(RAW_INPUT, "r", encoding="utf-8") as f:
-        raw_latest = json.load(f)
-
-    raw_map = {}
-    for row in raw_latest:
-        game_slug = row.get("game_slug")
-        if game_slug in SPECIAL_RAW_GAMES:
-            raw_map[group_key(row)] = build_from_raw_row(row)
-
-    merged = []
-    for row in latest_results:
-        key = group_key(row)
-        if key in raw_map:
-            merged.append(raw_map[key])
-        else:
-            merged.append(row)
-
-    latest_results = merged
-
-except FileNotFoundError:
-    pass
-
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(latest_results, f, indent=2, ensure_ascii=False)
-
-print(f"Archivo creado: {OUTPUT_FILE}")
-print(f"Juegos procesados: {len(latest_results)}")
+if __name__ == "__main__":
+    main()
